@@ -8,7 +8,6 @@ import vBind from "./components/day8/vBind.vue";
   <main>
     <mustache />
     <vHtml rawHtml="<strong>This is where I can put the HTML code</strong>" />
-    <!-- 傳遞 rawHtml 到子組件 -->
     <vBind />
   </main>
 </template>
