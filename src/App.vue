@@ -5,6 +5,7 @@ import vBind from "./components/day8/vBind.vue";
 import expression from "./components/day9/expression.vue";
 import method from "./components/day9/method.vue";
 import directives from "./components/day10/directives.vue";
+import ref from "./components/day11/ref.vue";
 </script>
 
 <template>
@@ -19,6 +20,8 @@ import directives from "./components/day10/directives.vue";
     <method />
     <h2>Day10</h2>
     <directives />
+    <h2>Day11</h2>
+    <ref />
   </main>
 </template>
 
