@@ -6,6 +6,8 @@ import expression from "./components/day9/expression.vue";
 import method from "./components/day9/method.vue";
 import directives from "./components/day10/directives.vue";
 import ref from "./components/day11/ref.vue";
+import refObj from "./components/day12/refObj.vue";
+import refObj2 from "./components/day12/refObj2.vue";
 </script>
 
 <template>
@@ -22,6 +24,9 @@ import ref from "./components/day11/ref.vue";
     <directives />
     <h2>Day11</h2>
     <ref />
+    <h2>Day12</h2>
+    <refObj />
+    <refObj2 />
   </main>
 </template>
 
