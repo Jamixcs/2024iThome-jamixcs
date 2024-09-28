@@ -8,6 +8,13 @@ import directives from "./components/day10/directives.vue";
 import ref from "./components/day11/ref.vue";
 import refObj from "./components/day12/refObj.vue";
 import refObj2 from "./components/day12/refObj2.vue";
+import reactive from "./components/day14/reactive.vue";
+import reactiveProxy from "./components/day14/reactiveProxy.vue";
+import reactiveBestPractice from "./components/day14/reactiveBestPractice.vue";
+import reactiveObjReturn from "./components/day14/reactiveObjReturn.vue";
+import reactiveCannot from "./components/day14/reactiveCannot1.vue";
+import reactiveCannot2 from "./components/day14/reactiveCannot2.vue";
+import reactiveCannot3 from "./components/day14/reactiveCannot3.vue";
 </script>
 
 <template>
@@ -27,6 +34,14 @@ import refObj2 from "./components/day12/refObj2.vue";
     <h2>Day12</h2>
     <refObj />
     <refObj2 />
+    <h2>Day14</h2>
+    <reactive />
+    <reactiveProxy />
+    <reactiveBestPractice />
+    <reactiveObjReturn />
+    <reactiveCannot />
+    <reactiveCannot2 />
+    <reactiveCannot3 />
   </main>
 </template>
 
