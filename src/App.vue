@@ -19,6 +19,11 @@ import refUnwrapByReactive from "./components/day15/refUnwrapByReactive.vue";
 import refUnwrapByReactive2 from "./components/day15/refUnwrapByReactive2.vue";
 import refArrayUnwrap from "./components/day15/refArrayUnwrap.vue";
 import refTemplateUnwrap from "./components/day15/refTemplateUnwrap.vue";
+import noComputed from "./components/day16/noComputed.vue";
+import computed from "./components/day16/computed.vue";
+import functionVScomputed from "./components/day16/functionVScomputed.vue";
+import DateNow from "./components/day16/DateNow.vue";
+import computedChangeValue from "./components/day16/computedChangeValue.vue";
 </script>
 
 <template>
@@ -51,6 +56,12 @@ import refTemplateUnwrap from "./components/day15/refTemplateUnwrap.vue";
     <refUnwrapByReactive2 />
     <refArrayUnwrap />
     <refTemplateUnwrap />
+    <h2>Day16</h2>
+    <noComputed />
+    <computed />
+    <functionVScomputed />
+    <DateNow />
+    <computedChangeValue />
   </main>
 </template>
 
