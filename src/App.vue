@@ -15,6 +15,10 @@ import reactiveObjReturn from "./components/day14/reactiveObjReturn.vue";
 import reactiveCannot from "./components/day14/reactiveCannot1.vue";
 import reactiveCannot2 from "./components/day14/reactiveCannot2.vue";
 import reactiveCannot3 from "./components/day14/reactiveCannot3.vue";
+import refUnwrapByReactive from "./components/day15/refUnwrapByReactive.vue";
+import refUnwrapByReactive2 from "./components/day15/refUnwrapByReactive2.vue";
+import refArrayUnwrap from "./components/day15/refArrayUnwrap.vue";
+import refTemplateUnwrap from "./components/day15/refTemplateUnwrap.vue";
 </script>
 
 <template>
@@ -42,6 +46,11 @@ import reactiveCannot3 from "./components/day14/reactiveCannot3.vue";
     <reactiveCannot />
     <reactiveCannot2 />
     <reactiveCannot3 />
+    <h2>Day15</h2>
+    <refUnwrapByReactive />
+    <refUnwrapByReactive2 />
+    <refArrayUnwrap />
+    <refTemplateUnwrap />
   </main>
 </template>
 

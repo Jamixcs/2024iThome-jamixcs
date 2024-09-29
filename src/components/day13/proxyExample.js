@@ -6,7 +6,7 @@ let name = {
 let ref = new Proxy(name, {
   get: function (target, property) {
     if (property === "fullName") {
-      return target.firstName + "" + target.lastName;
+      return target.firstName + " " + target.lastName;
     }
     return target[property];
   }
