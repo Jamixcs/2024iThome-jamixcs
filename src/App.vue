@@ -24,6 +24,12 @@ import computed from "./components/day16/computed.vue";
 import functionVScomputed from "./components/day16/functionVScomputed.vue";
 import DateNow from "./components/day16/DateNow.vue";
 import computedChangeValue from "./components/day16/computedChangeValue.vue";
+import classVbind from "./components/day17/classVbind.vue";
+import classVbind2 from "./components/day17/classVbind2.vue";
+import classVbind3 from "./components/day17/classVbind3.vue";
+import classVbind4 from "./components/day17/classVbind4.vue";
+import classVbind5 from "./components/day17/classVbind5.vue";
+import classVbind6 from "./components/day17/classVbind6.vue";
 </script>
 
 <template>
@@ -62,6 +68,13 @@ import computedChangeValue from "./components/day16/computedChangeValue.vue";
     <functionVScomputed />
     <DateNow />
     <computedChangeValue />
+    <h2>Day17</h2>
+    <classVbind />
+    <classVbind2 />
+    <classVbind3 />
+    <classVbind4 />
+    <classVbind5 />
+    <classVbind6 />
   </main>
 </template>
 
