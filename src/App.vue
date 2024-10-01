@@ -30,6 +30,9 @@ import classVbind3 from "./components/day17/classVbind3.vue";
 import classVbind4 from "./components/day17/classVbind4.vue";
 import classVbind5 from "./components/day17/classVbind5.vue";
 import classVbind6 from "./components/day17/classVbind6.vue";
+import styleVbind from "./components/day18/styleVbind2.vue";
+import styleVbind2 from "./components/day18/styleVbind2.vue";
+import styleVbind3 from "./components/day18/styleVbind3.vue";
 </script>
 
 <template>
@@ -75,6 +78,10 @@ import classVbind6 from "./components/day17/classVbind6.vue";
     <classVbind4 />
     <classVbind5 />
     <classVbind6 />
+    <h2>Day18</h2>
+    <styleVbind />
+    <styleVbind2 />
+    <styleVbind3 />
   </main>
 </template>
 
