@@ -20,7 +20,7 @@ const contentWidth = reactive({
 });
 </script>
 <template>
-  <h1 :style="[baseWidth, backgroundColor, titleFont]">
+  <h1 :style="[{ width: baseWidth + 'px' }, backgroundColor, titleFont]">
     鐵人賽今天是第 18 天哦！
   </h1>
   <h3 :style="[color, backgroundColor, contentWidth]">你真的好棒喔✨✨✨</h3>
