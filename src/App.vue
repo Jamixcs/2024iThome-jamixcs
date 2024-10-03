@@ -37,6 +37,15 @@ import vIf from "./components/day19/vIf.vue";
 import vIf2 from "./components/day19/vIf2.vue";
 import vIf3 from "./components/day19/vIf3.vue";
 import vShow from "./components/day19/vShow.vue";
+import vFor from "./components/day20/vFor.vue";
+import vFor2 from "./components/day20/vFor2.vue";
+import vFor3 from "./components/day20/vFor3.vue";
+import vFor4 from "./components/day20/vFor4.vue";
+import vFor5 from "./components/day20/vFor5.vue";
+import vFor6 from "./components/day20/vFor6.vue";
+import vFor7 from "./components/day20/vFor7.vue";
+import vFor8 from "./components/day20/vFor8.vue";
+import vFor9 from "./components/day20/vFor9.vue";
 </script>
 
 <template>
@@ -93,6 +102,16 @@ import vShow from "./components/day19/vShow.vue";
     <br />
     <vIf3 />
     <vShow />
+    <h2>Day20</h2>
+    <vFor />
+    <vFor2 />
+    <vFor3 />
+    <vFor4 />
+    <vFor5 />
+    <vFor6 />
+    <vFor7 />
+    <vFor8 />
+    <vFor9 />
   </main>
 </template>
 
