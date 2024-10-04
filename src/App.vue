@@ -46,6 +46,12 @@ import vFor6 from "./components/day20/vFor6.vue";
 import vFor7 from "./components/day20/vFor7.vue";
 import vFor8 from "./components/day20/vFor8.vue";
 import vFor9 from "./components/day20/vFor9.vue";
+import vFor9keyIndex from "./components/day21/vFor9keyIndex.vue";
+import vFor9keyId from "./components/day21/vFor9keyId.vue";
+import vFor10 from "./components/day21/vFor10.vue";
+import vFor11 from "./components/day21/vFor11.vue";
+import vFor12 from "./components/day21/vFor12.vue";
+import vFor13 from "./components/day21/vFor13.vue";
 </script>
 
 <template>
@@ -112,6 +118,13 @@ import vFor9 from "./components/day20/vFor9.vue";
     <vFor7 />
     <vFor8 />
     <vFor9 />
+    <h2>Day21</h2>
+    <vFor9keyIndex />
+    <vFor9keyId />
+    <vFor10 />
+    <vFor11 />
+    <vFor12 />
+    <vFor13 />
   </main>
 </template>
 
