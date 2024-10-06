@@ -52,6 +52,13 @@ import vFor10 from "./components/day21/vFor10.vue";
 import vFor11 from "./components/day21/vFor11.vue";
 import vFor12 from "./components/day21/vFor12.vue";
 import vFor13 from "./components/day21/vFor13.vue";
+import vOnInline from "./components/day22/vOnInline.vue";
+import vOnInline2 from "./components/day22/vOnInline2.vue";
+import vOnInline2DOM from "./components/day22/vOnInline2DOM.vue";
+import vOnMethod from "./components/day22/vOnMethod.vue";
+import vOnPrevent from "./components/day22/vOnPrevent.vue";
+import vOnKeydown from "./components/day22/vOnKeydown.vue";
+import vOnKeyup from "./components/day22/vOnKeyup.vue";
 </script>
 
 <template>
@@ -125,15 +132,13 @@ import vFor13 from "./components/day21/vFor13.vue";
     <vFor11 />
     <vFor12 />
     <vFor13 />
+    <h2>Day22</h2>
+    <vOnInline />
+    <vOnInline2 />
+    <vOnInline2DOM />
+    <vOnMethod />
+    <vOnPrevent />
+    <vOnKeydown />
+    <vOnKeyup />
   </main>
 </template>
-
-<style>
-h2 {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin: 0 auto;
-}
-</style>
