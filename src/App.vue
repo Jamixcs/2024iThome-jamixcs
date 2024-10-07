@@ -59,6 +59,14 @@ import vOnMethod from "./components/day22/vOnMethod.vue";
 import vOnPrevent from "./components/day22/vOnPrevent.vue";
 import vOnKeydown from "./components/day22/vOnKeydown.vue";
 import vOnKeyup from "./components/day22/vOnKeyup.vue";
+import vBindInput from "./components/day23/vBindInput.vue";
+import vBindCheckbox from "./components/day23/vBindCheckbox.vue";
+import vBindTextarea from "./components/day23/vBindTextarea.vue";
+import vBindRadio from "./components/day23/vBindRadio.vue";
+import vBindSelect from "./components/day23/vBindSelect.vue";
+import vBindCheckboxCustomValue from "./components/day23/vBindCheckboxCustomValue.vue";
+import vBindRadioCustomValue from "./components/day23/vBindRadioCustomValue.vue";
+import vBindSelectCustomValue from "./components/day23/vBindSelectCustomValue.vue";
 </script>
 
 <template>
@@ -140,5 +148,14 @@ import vOnKeyup from "./components/day22/vOnKeyup.vue";
     <vOnPrevent />
     <vOnKeydown />
     <vOnKeyup />
+    <h2>Day23</h2>
+    <vBindInput />
+    <vBindTextarea />
+    <vBindCheckbox />
+    <vBindRadio />
+    <vBindSelect />
+    <vBindCheckboxCustomValue />
+    <vBindRadioCustomValue />
+    <vBindSelectCustomValue />
   </main>
 </template>
