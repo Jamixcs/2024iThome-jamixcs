@@ -67,6 +67,10 @@ import vBindSelect from "./components/day23/vBindSelect.vue";
 import vBindCheckboxCustomValue from "./components/day23/vBindCheckboxCustomValue.vue";
 import vBindRadioCustomValue from "./components/day23/vBindRadioCustomValue.vue";
 import vBindSelectCustomValue from "./components/day23/vBindSelectCustomValue.vue";
+import mount from "./components/day24/mount.vue";
+import update from "./components/day24/update.vue";
+import unmount from "./components/day24/unmount.vue";
+import ComponentA from "./components/day24/componentA.vue";
 </script>
 
 <template>
@@ -157,5 +161,11 @@ import vBindSelectCustomValue from "./components/day23/vBindSelectCustomValue.vu
     <vBindCheckboxCustomValue />
     <vBindRadioCustomValue />
     <vBindSelectCustomValue />
+    <h2>Day24</h2>
+    <mount />
+    <update />
+    <br />
+    <unmount />
+    <ComponentA />
   </main>
 </template>
