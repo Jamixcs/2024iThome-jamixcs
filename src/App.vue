@@ -71,6 +71,14 @@ import mount from "./components/day24/mount.vue";
 import update from "./components/day24/update.vue";
 import unmount from "./components/day24/unmount.vue";
 import ComponentA from "./components/day24/componentA.vue";
+import refWatch from "./components/day25/refWatch.vue";
+import refComputedWatch from "./components/day25/refComputedWatch.vue";
+import reactiveWatch from "./components/day25/reactiveWatch.vue";
+import reactiveWatch2 from "./components/day25/reactiveWatch2.vue";
+import getterWatch from "./components/day25/getterWatch.vue";
+import getterWatchImmediate from "./components/day25/getterWatchImmediate.vue";
+import getterWatchOnce from "./components/day25/getterWatchOnce.vue";
+import getterWatchEffect from "./components/day25/getterWatchEffect.vue";
 </script>
 
 <template>
@@ -167,5 +175,14 @@ import ComponentA from "./components/day24/componentA.vue";
     <br />
     <unmount />
     <ComponentA />
+    <h2>Day25</h2>
+    <refWatch />
+    <refComputedWatch />
+    <reactiveWatch />
+    <reactiveWatch2 />
+    <getterWatch />
+    <getterWatchImmediate />
+    <getterWatchOnce />
+    <getterWatchEffect />
   </main>
 </template>
