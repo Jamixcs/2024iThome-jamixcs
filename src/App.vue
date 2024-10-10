@@ -79,6 +79,9 @@ import getterWatch from "./components/day25/getterWatch.vue";
 import getterWatchImmediate from "./components/day25/getterWatchImmediate.vue";
 import getterWatchOnce from "./components/day25/getterWatchOnce.vue";
 import getterWatchEffect from "./components/day25/getterWatchEffect.vue";
+import reference from "./components/day26/reference.vue";
+import referenceParent from "./components/day26/referenceParent.vue";
+import referenceArray from "./components/day26/referenceArray.vue";
 </script>
 
 <template>
@@ -184,5 +187,9 @@ import getterWatchEffect from "./components/day25/getterWatchEffect.vue";
     <getterWatchImmediate />
     <getterWatchOnce />
     <getterWatchEffect />
+    <h2>Day 26</h2>
+    <reference />
+    <referenceArray />
+    <referenceParent />
   </main>
 </template>
