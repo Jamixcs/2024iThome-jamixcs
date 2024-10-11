@@ -82,6 +82,7 @@ import getterWatchEffect from "./components/day25/getterWatchEffect.vue";
 import reference from "./components/day26/reference.vue";
 import referenceParent from "./components/day26/referenceParent.vue";
 import referenceArray from "./components/day26/referenceArray.vue";
+import ComponentParent from "./components/day27/componentParent.vue";
 </script>
 
 <template>
@@ -191,5 +192,15 @@ import referenceArray from "./components/day26/referenceArray.vue";
     <reference />
     <referenceArray />
     <referenceParent />
+    <h2>Day 27</h2>
+    <ComponentParent />
   </main>
 </template>
+
+<style>
+h2 {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+</style>
