@@ -83,6 +83,24 @@ import reference from "./components/day26/reference.vue";
 import referenceParent from "./components/day26/referenceParent.vue";
 import referenceArray from "./components/day26/referenceArray.vue";
 import ComponentParent from "./components/day27/componentParent.vue";
+import propsParent1 from "./components/day28/propsParent1.vue";
+import propsParent2 from "./components/day28/propsParent2.vue";
+import parent from "./components/day28/parent.vue";
+import parentActive from "./components/day28/parentActive.vue";
+import parentNumber from "./components/day28/parentNumber.vue";
+import parentBoolean from "./components/day28/parentBoolean.vue";
+import parentArray from "./components/day28/parentArray.vue";
+import parentObject from "./components/day28/parentObject.vue";
+import parentModify from "./components/day28/parentModify.vue";
+import parentModifyComputed from "./components/day28/parentModifyComputed.vue";
+import parentType from "./components/day28/parentType.vue";
+import parentRequired from "./components/day28/parentRequired.vue";
+import parentDefault from "./components/day28/parentDefault.vue";
+import parentDefaultObject from "./components/day28/parentDefaultObject.vue";
+import parentDefaultValidator from "./components/day28/parentDefaultValidator.vue";
+import parentDefaultFunction from "./components/day28/parentDefaultFunction.vue";
+import parentDefaultBoolean from "./components/day28/parentDefaultBoolean.vue";
+import parentDefaultBooleanString from "./components/day28/parentDefaultBooleanString.vue";
 </script>
 
 <template>
@@ -194,6 +212,25 @@ import ComponentParent from "./components/day27/componentParent.vue";
     <referenceParent />
     <h2>Day 27</h2>
     <ComponentParent />
+    <h2>Day 28</h2>
+    <propsParent1 />
+    <propsParent2 />
+    <parent />
+    <parentActive />
+    <parentNumber />
+    <parentBoolean />
+    <parentArray />
+    <parentObject />
+    <parentModify />
+    <parentModifyComputed />
+    <parentType />
+    <parentRequired />
+    <parentDefault />
+    <parentDefaultObject />
+    <parentDefaultValidator />
+    <parentDefaultFunction />
+    <parentDefaultBoolean />
+    <parentDefaultBooleanString />
   </main>
 </template>
 
