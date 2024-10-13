@@ -101,6 +101,11 @@ import parentDefaultValidator from "./components/day28/parentDefaultValidator.vu
 import parentDefaultFunction from "./components/day28/parentDefaultFunction.vue";
 import parentDefaultBoolean from "./components/day28/parentDefaultBoolean.vue";
 import parentDefaultBooleanString from "./components/day28/parentDefaultBooleanString.vue";
+import parentEmit from "./components/day29/parentEmit.vue";
+import parentEmit2 from "./components/day29/parentEmit2.vue";
+import parentEmit3 from "./components/day29/parentEmit3.vue";
+import counterA from "./components/day29/status/counterA.vue";
+import counterB from "./components/day29/status/counterB.vue";
 </script>
 
 <template>
@@ -231,6 +236,12 @@ import parentDefaultBooleanString from "./components/day28/parentDefaultBooleanS
     <parentDefaultFunction />
     <parentDefaultBoolean />
     <parentDefaultBooleanString />
+    <h2>Day 29</h2>
+    <parentEmit />
+    <parentEmit2 />
+    <parentEmit3 />
+    <counterA />
+    <counterB />
   </main>
 </template>
 
